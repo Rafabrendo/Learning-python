@@ -43,15 +43,15 @@ p1.comer('alimento') #Rafa não pode comer falando.
 p1.parar_falar() #Rafa parou de falar.
 p1.falar('Assunto') #Rafa está falando sobre Assunto."""
 
-p1 = Pessoa('Rafa', 24)
-p2 = Pessoa('Brendo', 24)
+p1 = Pessoa('Rafa', 25)
+p2 = Pessoa('Brendo', 25)
 
 p1.falar('POO')
 p2.comer('Sorvete')
 p2.falar('Filmes')
 p1.comer('churrasco')
 
-print(p1.ano_atual) #Os objetos vai poder ter acesso a variavel da classe #2022
+print(p1.ano_atual) #Os objetos vão poder ter acesso a variavel da classe #2022
 print(p2.ano_atual) #2022
 print(Pessoa.ano_atual) #A classe tbm #2022
 print(p1.get_ano_nascimento()) #1998

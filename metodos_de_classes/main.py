@@ -38,3 +38,5 @@ print(p1)
 
 print(p1.nome, p1.idade)
 p1.get_ano_nascimento()
+# p2 = p1.por_ano_nascimento
+# print(p2.__str__)

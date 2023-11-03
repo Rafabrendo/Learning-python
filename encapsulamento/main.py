@@ -60,7 +60,7 @@ print(bd.__dados) #Outra coisa
 print(bd._BaseDeDados__dados) #{'clientes': {1: 'Rafa', 2: 'Brendo'}}
 #Esse é o jeito para acessar o meu atributo da classe
 #instancia. + _Nome da classe +__Nome do atributo(real)
-bd.dados = 'Outro valor' #AttributeError: can't set attribute 'dados' #Precisaria do set para mudar esse atributo.
+#bd.dados = 'Outro valor' #AttributeError: can't set attribute 'dados' #Precisaria do set para mudar esse atributo.
 print(bd.dados) #Por causa do getter, eu consigo agora obter os dados assim...
 
 
